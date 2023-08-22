@@ -6,7 +6,6 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
-				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/NewPaperSprite.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Maps/FirstLevel.umap",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-Sheet.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Sounds/steps_in_wood_floo2r.uasset",
@@ -126,6 +125,17 @@
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-Sheet_Sprite_106.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-Sheet_Sprite_107.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-Sheet_Sprite_108.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player-IdleDown.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/Idle.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimBP_Player.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/BP_Hero.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/GM_Base.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Platyer-MoveUp.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AS_Player.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/Move.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/Input/IA_Move.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/Input/IMC_TopDown.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/NewPaperSprite.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-Sheet_Sprite_109.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-sheet_Sprite_110.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-sheet_Sprite_111.uasset",
@@ -194,12 +204,13 @@
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-sheet_Sprite_174.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-sheet_Sprite_175.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player2-sheet_Sprite_176.uasset",
-				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Player-IdleDown.uasset",
-				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/Idle.uasset",
 				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/Run.uasset",
-				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimBP_Player.uasset",
-				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/BP_Hero.uasset",
-				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/GM_Base.uasset"
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/RunDown.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/IdleDown.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/IdleUp.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/RunUp.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/IdleRight.uasset",
+				"C:/Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/MoveRight.uasset"
 			]
 		}
 	]

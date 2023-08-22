@@ -5493,3 +5493,764 @@ Script Stack (1 frames) :
 [2023.08.21-23.44.02:977][635]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.08.21-23.44.02:977][635]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.08.21-23.44.03:021][638]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.08.21-23.52.37:834][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.08.21-23.52.37:836][601]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstLevel' took 0.022
+[2023.08.21-23.52.37:837][601]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/GM_Base] ([2] browsable assets)...
+[2023.08.21-23.52.37:837][601]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/GM_Base]
+[2023.08.21-23.52.37:840][601]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/GM_Base_Auto7
+[2023.08.21-23.52.37:840][601]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/GM_Base_Auto7FA3053F84233A7EE84F01D99C2475FE5.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/GM_Base_Auto7.uasset'
+[2023.08.21-23.52.37:840][601]LogFileHelpers: Auto-saving content packages took 0.004
+[2023.08.22-00.11.02:760][904]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.08.22-00.11.02:760][904]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.08.22-00.29.26:926][216]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.08.22-00.38.13:475][305]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.22-00.38.13:488][305]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.22-00.38.14:626][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.38.14:724][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2023.08.22-00.38.14:735][388]LogSavePackage: Moving output files for package: /Game/Maps/FirstLevel
+[2023.08.22-00.38.14:736][388]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/FirstLevel0D6336DB40BD79087D23338B91F71205.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Maps/FirstLevel.umap'
+[2023.08.22-00.38.14:744][388]LogFileHelpers: Saving map 'FirstLevel' took 0.048
+[2023.08.22-00.38.14:754][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 3.51 sec)
+[2023.08.22-00.38.14:764][388]AssetCheck: New page: Asset Save: FirstLevel
+[2023.08.22-00.38.14:764][388]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FirstLevel.FirstLevel
+[2023.08.22-00.38.49:041][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.38.49:131][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Player/BP_Hero" FILE="../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/BP_Hero.uasset" SILENT=true
+[2023.08.22-00.38.49:138][304]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/BP_Hero
+[2023.08.22-00.38.49:139][304]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/BP_Hero86E373784BE7C15C5AEC4DB77A2BE7A5.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/BP_Hero.uasset'
+[2023.08.22-00.38.49:152][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 3.62 sec)
+[2023.08.22-00.38.49:160][304]AssetCheck: New page: Asset Save: BP_Hero
+[2023.08.22-00.38.49:160][304]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BluePrint/Player/BP_Hero.BP_Hero
+[2023.08.22-00.38.53:207][639]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.22-00.38.53:215][639]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.22-00.38.53:216][639]LogPlayLevel: [PlayLevel] Compiling BP_Hero before play...
+[2023.08.22-00.38.53:273][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.08.22-00.38.53:276][639]LogPlayLevel: PlayLevel: Blueprint regeneration took 61 ms (1 blueprints)
+[2023.08.22-00.38.53:276][639]PIE: New page: PIE session: FirstLevel (Aug 21, 2023, 10:38:53 AM)
+[2023.08.22-00.38.53:277][639]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2023.08.22-00.38.53:279][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002103s)
+[2023.08.22-00.38.53:279][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.002199s)
+[2023.08.22-00.38.53:279][639]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.38.53:279][639]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.38.53:280][639]LogAIModule: Creating AISystem for world FirstLevel
+[2023.08.22-00.38.53:280][639]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2023.08.22-00.38.53:302][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.08.22-00.38.53:304][639]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.08.22-00.38.53:304][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.22-00.38.53:304][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.22-00.38.53:304][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.22-00.38.53:304][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.22-00.38.53:304][639]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.22-00.38.53:305][639]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.22-00.38.53:305][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.22-00.38.53:305][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.22-00.38.53:305][639]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.22-00.38.53:305][639]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.22-00.38.53:305][639]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.22-00.38.53:308][639]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.22-00.38.53:356][639]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.08.22-00.38.53:356][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.22-00.38.53:356][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.22-00.38.53:356][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.22-00.38.53:360][639]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.08.22-00.38.53:360][639]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.08.22-00.38.53:362][639]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.08.22-00.38.53:362][639]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.08.22-00.38.53:362][639]LogInit: FAudioDevice initialized with ID 11.
+[2023.08.22-00.38.53:362][639]LogAudio: Display: Audio Device (ID: 11) registered with world 'FirstLevel'.
+[2023.08.22-00.38.53:362][639]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.08.22-00.38.53:374][639]LogLoad: Game class is 'GM_Base_C'
+[2023.08.22-00.38.53:375][639]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2023.08.21-17.38.53
+[2023.08.22-00.38.53:375][639]LogWorld: Bringing up level for play took: 0.001076
+[2023.08.22-00.38.53:379][639]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.08.22-00.38.53:381][639]PIE: Server logged in
+[2023.08.22-00.38.53:382][639]PIE: Play in editor total start time 0.167 seconds.
+[2023.08.22-00.38.53:414][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:414][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:415][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:415][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:416][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:416][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:417][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:418][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:418][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:419][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:420][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.38.53:420][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:474][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.22-00.39.05:474][614]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstLevel
+[2023.08.22-00.39.05:475][614]LogWorld: UWorld::CleanupWorld for FirstLevel, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-00.39.05:475][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.39.05:480][614]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.22-00.39.05:484][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.39.05:504][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.22-00.39.05:504][614]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.08.22-00.39.05:505][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.08.22-00.39.05:506][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.08.22-00.39.05:513][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.08.22-00.39.05:544][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:545][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:545][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:546][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:546][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:547][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:547][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:548][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:548][614]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.05:555][615]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.08.22-00.39.35:070][483]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.08.22-00.39.35:071][483]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.08.22-00.39.35:075][483]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.PlayerStart_0
+[2023.08.22-00.39.35:075][483]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.22-00.39.35:079][483]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.PlayerStart_0
+[2023.08.22-00.39.35:080][483]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.22-00.39.35:096][483]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.22-00.39.35:118][483]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.36:927][629]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.22-00.39.38:550][769]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.08.22-00.39.42:466][110]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.22-00.39.42:474][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.22-00.39.42:475][110]PIE: New page: PIE session: FirstLevel (Aug 21, 2023, 10:39:42 AM)
+[2023.08.22-00.39.42:475][110]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2023.08.22-00.39.42:477][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002197s)
+[2023.08.22-00.39.42:477][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.002234s)
+[2023.08.22-00.39.42:477][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.39.42:477][110]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.39.42:478][110]LogAIModule: Creating AISystem for world FirstLevel
+[2023.08.22-00.39.42:478][110]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2023.08.22-00.39.42:500][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.08.22-00.39.42:505][110]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.08.22-00.39.42:505][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.22-00.39.42:505][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.22-00.39.42:505][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.22-00.39.42:505][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.22-00.39.42:505][110]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.22-00.39.42:505][110]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.22-00.39.42:505][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.22-00.39.42:505][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.22-00.39.42:505][110]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.22-00.39.42:505][110]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.22-00.39.42:505][110]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.22-00.39.42:507][110]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.22-00.39.42:548][110]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.08.22-00.39.42:549][110]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.22-00.39.42:549][110]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.22-00.39.42:549][110]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.22-00.39.42:549][110]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.08.22-00.39.42:549][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.08.22-00.39.42:551][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.08.22-00.39.42:551][110]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.08.22-00.39.42:551][110]LogInit: FAudioDevice initialized with ID 12.
+[2023.08.22-00.39.42:551][110]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstLevel'.
+[2023.08.22-00.39.42:551][110]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.08.22-00.39.42:560][110]LogLoad: Game class is 'GM_Base_C'
+[2023.08.22-00.39.42:561][110]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2023.08.21-17.39.42
+[2023.08.22-00.39.42:561][110]LogWorld: Bringing up level for play took: 0.000809
+[2023.08.22-00.39.42:563][110]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.08.22-00.39.42:565][110]PIE: Server logged in
+[2023.08.22-00.39.42:566][110]PIE: Play in editor total start time 0.092 seconds.
+[2023.08.22-00.39.42:585][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:586][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:586][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:586][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:587][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:587][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:587][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:588][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:588][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:588][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:589][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.42:589][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:044][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.22-00.39.52:044][ 45]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstLevel
+[2023.08.22-00.39.52:044][ 45]LogWorld: UWorld::CleanupWorld for FirstLevel, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-00.39.52:044][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.39.52:048][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.22-00.39.52:055][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.39.52:073][ 45]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.22-00.39.52:073][ 45]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.08.22-00.39.52:073][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.08.22-00.39.52:076][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.08.22-00.39.52:080][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.22-00.39.52:082][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.08.22-00.39.52:102][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:103][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:103][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:104][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:104][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:105][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:105][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:106][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:106][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:107][ 45]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.52:137][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.08.22-00.39.58:321][555]BlueprintLog: New page: Compile BP_Hero
+[2023.08.22-00.39.58:360][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.22-00.39.59:099][618]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.22-00.39.59:106][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.22-00.39.59:106][618]PIE: New page: PIE session: FirstLevel (Aug 21, 2023, 10:39:59 AM)
+[2023.08.22-00.39.59:134][618]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2023.08.22-00.39.59:135][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001568s)
+[2023.08.22-00.39.59:135][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.001613s)
+[2023.08.22-00.39.59:135][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.39.59:135][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.39.59:136][618]LogAIModule: Creating AISystem for world FirstLevel
+[2023.08.22-00.39.59:136][618]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2023.08.22-00.39.59:154][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.08.22-00.39.59:157][618]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.08.22-00.39.59:157][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.22-00.39.59:157][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.22-00.39.59:157][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.22-00.39.59:157][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.22-00.39.59:157][618]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.22-00.39.59:157][618]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.22-00.39.59:157][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.22-00.39.59:157][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.22-00.39.59:157][618]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.22-00.39.59:158][618]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.22-00.39.59:158][618]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.22-00.39.59:159][618]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.22-00.39.59:199][618]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.08.22-00.39.59:200][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.22-00.39.59:200][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.22-00.39.59:200][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.22-00.39.59:200][618]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.08.22-00.39.59:200][618]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.08.22-00.39.59:202][618]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.08.22-00.39.59:202][618]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.08.22-00.39.59:202][618]LogInit: FAudioDevice initialized with ID 13.
+[2023.08.22-00.39.59:202][618]LogAudio: Display: Audio Device (ID: 13) registered with world 'FirstLevel'.
+[2023.08.22-00.39.59:202][618]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.08.22-00.39.59:210][618]LogLoad: Game class is 'GM_Base_C'
+[2023.08.22-00.39.59:210][618]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2023.08.21-17.39.59
+[2023.08.22-00.39.59:211][618]LogWorld: Bringing up level for play took: 0.000779
+[2023.08.22-00.39.59:214][618]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.08.22-00.39.59:215][618]PIE: Server logged in
+[2023.08.22-00.39.59:216][618]PIE: Play in editor total start time 0.109 seconds.
+[2023.08.22-00.39.59:237][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:238][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:238][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:239][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:239][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:240][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:240][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:241][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:242][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:243][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:243][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.39.59:244][618]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:873][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.22-00.41.07:873][652]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstLevel
+[2023.08.22-00.41.07:873][652]LogWorld: UWorld::CleanupWorld for FirstLevel, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-00.41.07:873][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.41.07:878][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.22-00.41.07:882][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.41.07:903][652]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.22-00.41.07:903][652]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.08.22-00.41.07:903][652]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.08.22-00.41.07:904][652]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.08.22-00.41.07:908][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.22-00.41.07:911][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.08.22-00.41.07:939][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:939][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:940][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:940][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:940][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:941][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:941][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:941][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:942][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:943][652]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.41.07:965][653]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.08.22-00.42.56:688][239]LogDerivedDataCache: C:/Users/Long/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:26.145 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 13678 files in 15239 folders with total size 367 MiB.
+[2023.08.22-00.49.45:602][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.08.22-00.49.45:614][465]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/FirstLevel_Auto8
+[2023.08.22-00.49.45:614][465]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/FirstLevel_Auto8C53F82A94CA70A86E6D168A248B1F511.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/Maps/FirstLevel_Auto8.umap'
+[2023.08.22-00.49.45:620][465]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstLevel' took 0.039
+[2023.08.22-00.49.45:620][465]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2023.08.22-00.49.45:621][465]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/BP_Hero] ([2] browsable assets)...
+[2023.08.22-00.49.45:621][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/BP_Hero]
+[2023.08.22-00.49.45:625][465]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/BP_Hero_Auto8
+[2023.08.22-00.49.45:625][465]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/BP_Hero_Auto8B4519CEC429C39D9735BFFB0148B0149.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/BP_Hero_Auto8.uasset'
+[2023.08.22-00.49.45:626][465]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.08.22-00.50.17:475][303]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimationSource_Flipbook /Game/BluePrint/Player/AS_Player.AS_Player
+[2023.08.22-00.50.17:499][303]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.50.17:499][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.50.17:558][303]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/PaperZD.PaperZDAnimSequence_Flipbook
+[2023.08.22-00.50.17:561][303]LogViewport: Scene viewport resized to 1399x1167, mode Windowed.
+[2023.08.22-00.50.17:586][304]LogViewport: Scene viewport resized to 1399x1157, mode Windowed.
+[2023.08.22-00.50.17:664][305]LogViewport: Scene viewport resized to 1399x1143, mode Windowed.
+[2023.08.22-00.50.21:845][519]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimBP /Game/BluePrint/Player/AnimBP_Player.AnimBP_Player
+[2023.08.22-00.50.21:845][519]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.50.21:845][519]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.51.40:876][549]BlueprintLog: New page: Compile AnimBP_Player
+[2023.08.22-00.51.40:879][549]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Select Animation by Bool  has nothing bound to its 'True' animation pin
+[2023.08.22-00.51.40:879][549]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Select Animation by Bool  has nothing bound to its 'False' animation pin
+[2023.08.22-00.51.40:879][549]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Missing allocated node for PaperZDAnimGraphNode_SelectByBool_0 while searching for node links - likely due to the node having outstanding errors.
+[2023.08.22-00.51.40:904][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.08.22-00.51.45:608][956]LogViewport: Scene viewport resized to 1399x683, mode Windowed.
+[2023.08.22-00.52.00:152][166]LogContentBrowser: Attempting asset rename: Run -> RunDown
+[2023.08.22-00.52.00:187][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.52.00:248][166]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/RunDown
+[2023.08.22-00.52.00:248][166]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/RunDownC9220C704B356A88A2F3B399BA9F3C17.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/RunDown.uasset'
+[2023.08.22-00.52.00:261][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 3.70 sec)
+[2023.08.22-00.52.00:297][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.22-00.52.00:316][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.08.22-00.52.00:334][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.08.22-00.52.00:339][166]AssetCheck: New page: Asset Save: RunDown
+[2023.08.22-00.52.00:339][166]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/RunDown.RunDown
+[2023.08.22-00.52.00:351][166]LogViewport: Scene viewport resized to 1399x1143, mode Windowed.
+[2023.08.22-00.52.05:573][583]LogContentBrowser: Attempting asset rename: Idle -> IdleDown
+[2023.08.22-00.52.05:597][583]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.52.05:656][583]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimBP_Player
+[2023.08.22-00.52.05:657][583]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/AnimBP_PlayerD61E7D8742EBDFCD423FE7A46882C0A9.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimBP_Player.uasset'
+[2023.08.22-00.52.05:659][583]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/IdleDown
+[2023.08.22-00.52.05:659][583]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/IdleDown5A8A55EF4D44201F7639AEAF0BEA3DFC.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/IdleDown.uasset'
+[2023.08.22-00.52.05:669][583]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 3.77 sec)
+[2023.08.22-00.52.05:697][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.08.22-00.52.05:716][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.08.22-00.52.05:734][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.08.22-00.52.05:740][583]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.22-00.52.05:740][583]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/IdleDown.IdleDown
+[2023.08.22-00.52.05:740][583]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/BluePrint/Player/AnimBP_Player.AnimBP_Player
+[2023.08.22-00.52.10:141][921]LogViewport: Scene viewport resized to 1399x683, mode Windowed.
+[2023.08.22-00.52.12:462][121]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> IdleUp
+[2023.08.22-00.52.12:485][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.52.12:544][121]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/IdleUp
+[2023.08.22-00.52.12:544][121]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/IdleUp37983F4240DF45C46196AAA035132181.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/IdleUp.uasset'
+[2023.08.22-00.52.12:554][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 3.84 sec)
+[2023.08.22-00.52.12:580][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.08.22-00.52.12:599][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.08.22-00.52.12:618][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.08.22-00.52.12:624][121]AssetCheck: New page: Asset Save: IdleUp
+[2023.08.22-00.52.12:624][121]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/IdleUp.IdleUp
+[2023.08.22-00.52.19:884][718]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> RunUp
+[2023.08.22-00.52.19:906][718]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.52.19:973][718]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/RunUp
+[2023.08.22-00.52.19:973][718]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/RunUp950598E84D49407D2FDEC2A71EC0DFF3.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/RunUp.uasset'
+[2023.08.22-00.52.19:985][718]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 3.92 sec)
+[2023.08.22-00.52.20:012][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.08.22-00.52.20:031][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.08.22-00.52.20:049][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.08.22-00.52.20:054][718]AssetCheck: New page: Asset Save: RunUp
+[2023.08.22-00.52.20:054][718]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/RunUp.RunUp
+[2023.08.22-00.52.40:734][354]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/RunDown.RunDown
+[2023.08.22-00.52.40:751][354]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.52.40:751][354]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.52.40:815][354]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/PaperZD.PaperZDAnimSequence_Flipbook
+[2023.08.22-00.52.40:818][354]LogViewport: Scene viewport resized to 1399x698, mode Windowed.
+[2023.08.22-00.52.40:848][355]LogViewport: Scene viewport resized to 1399x691, mode Windowed.
+[2023.08.22-00.52.40:885][356]LogViewport: Scene viewport resized to 1399x683, mode Windowed.
+[2023.08.22-00.52.46:207][782]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/RunUp.RunUp
+[2023.08.22-00.52.46:223][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.52.46:223][782]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.52.46:285][782]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/PaperZD.PaperZDAnimSequence_Flipbook
+[2023.08.22-00.52.46:287][782]LogViewport: Scene viewport resized to 1399x698, mode Windowed.
+[2023.08.22-00.52.46:312][783]LogViewport: Scene viewport resized to 1399x692, mode Windowed.
+[2023.08.22-00.52.46:354][784]LogViewport: Scene viewport resized to 1399x683, mode Windowed.
+[2023.08.22-00.53.09:640][492]LogContentBrowser: Deferred new asset file creation: Player2-Sheet1
+[2023.08.22-00.53.09:655][492]LogContentBrowser: Creating deferred item: Player2-Sheet1
+[2023.08.22-00.53.09:694][493]LogContentBrowser: Renaming the item being created (Deferred Item: Player2-Sheet1).
+[2023.08.22-00.53.15:510][950]LogContentBrowser: Attempting asset rename: Player2-Sheet1 -> Platyer-RunUp
+[2023.08.22-00.53.15:511][950]LogContentBrowser: End creating deferred item Player2-Sheet1
+[2023.08.22-00.53.23:429][558]LogContentBrowser: Attempting asset rename: Platyer-RunUp -> Platyer-MoveUp
+[2023.08.22-00.53.23:452][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.53.23:515][558]LogSavePackage: Moving output files for package: /Game/Assets/Player/Platyer-MoveUp
+[2023.08.22-00.53.23:515][558]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Platyer-MoveUp14B234CF4E8941A83FC104B1463A0EA8.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/Assets/Player/Platyer-MoveUp.uasset'
+[2023.08.22-00.53.23:525][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 3.99 sec)
+[2023.08.22-00.53.23:551][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.22-00.53.23:575][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.08.22-00.53.23:593][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.08.22-00.53.23:598][558]AssetCheck: New page: Asset Save: Platyer-MoveUp
+[2023.08.22-00.53.23:598][558]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Assets/Player/Platyer-MoveUp.Platyer-MoveUp
+[2023.08.22-00.53.25:116][669]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/Player/Platyer-MoveUp.Platyer-MoveUp
+[2023.08.22-00.53.25:116][669]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.53.25:116][669]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.53.25:183][669]LogViewport: Scene viewport resized to 1870x1039, mode Windowed.
+[2023.08.22-00.53.25:221][670]LogViewport: Scene viewport resized to 1870x1024, mode Windowed.
+[2023.08.22-00.53.25:257][671]LogViewport: Scene viewport resized to 1870x1010, mode Windowed.
+[2023.08.22-00.53.39:998][875]LogContentBrowser: Attempting asset rename: RunDown -> RunDown
+[2023.08.22-00.53.52:392][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.53.52:465][879]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/IdleUp
+[2023.08.22-00.53.52:466][879]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/IdleUpAA32CF164573799ABA6C15AD256B7CCC.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/IdleUp.uasset'
+[2023.08.22-00.53.52:475][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 4.07 sec)
+[2023.08.22-00.53.52:482][879]AssetCheck: New page: Asset Save: IdleUp
+[2023.08.22-00.53.52:482][879]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/IdleUp.IdleUp
+[2023.08.22-00.54.18:498][ 37]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> IdleRight
+[2023.08.22-00.54.18:520][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.54.18:577][ 37]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/IdleRight
+[2023.08.22-00.54.18:578][ 37]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/IdleRightF8819E9D4189CBF8D0E205BD84D58DE3.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/IdleRight.uasset'
+[2023.08.22-00.54.18:588][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 4.14 sec)
+[2023.08.22-00.54.18:615][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.08.22-00.54.18:635][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.08.22-00.54.18:653][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.08.22-00.54.18:658][ 37]AssetCheck: New page: Asset Save: IdleRight
+[2023.08.22-00.54.18:658][ 37]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/IdleRight.IdleRight
+[2023.08.22-00.54.42:755][ 25]LogContentBrowser: Attempting asset rename: NewPaperZDAnimSequence -> MoveRight
+[2023.08.22-00.54.42:782][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.54.42:846][ 25]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/MoveRight
+[2023.08.22-00.54.42:846][ 25]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/MoveRight3DBABCD345EF288EC6420EBCD5292CCB.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/MoveRight.uasset'
+[2023.08.22-00.54.42:856][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 4.22 sec)
+[2023.08.22-00.54.42:884][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.08.22-00.54.42:904][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.22-00.54.42:921][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.08.22-00.54.42:928][ 25]AssetCheck: New page: Asset Save: MoveRight
+[2023.08.22-00.54.42:928][ 25]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/MoveRight.MoveRight
+[2023.08.22-00.54.51:401][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.54.51:469][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Player/AS_Player" FILE="../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AS_Player.uasset" SILENT=true
+[2023.08.22-00.54.51:469][679]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AS_Player
+[2023.08.22-00.54.51:469][679]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/AS_PlayerBBEE9E654C5EFAC722BE16B4DD40257F.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AS_Player.uasset'
+[2023.08.22-00.54.51:477][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 4.29 sec)
+[2023.08.22-00.54.51:485][679]AssetCheck: New page: Asset Save: AS_Player
+[2023.08.22-00.54.51:485][679]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimationSource_Flipbook /Game/BluePrint/Player/AS_Player.AS_Player
+[2023.08.22-00.54.53:637][842]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-00.54.53:637][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.54.53:660][842]LogViewport: Scene viewport resized to 1399x702, mode Windowed.
+[2023.08.22-00.54.53:697][843]LogViewport: Scene viewport resized to 1399x692, mode Windowed.
+[2023.08.22-00.54.53:734][844]LogViewport: Scene viewport resized to 1399x684, mode Windowed.
+[2023.08.22-00.54.53:763][845]LogViewport: Scene viewport resized to 1399x683, mode Windowed.
+[2023.08.22-00.55.29:683][759]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.22-00.55.29:688][759]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.22-00.55.29:689][759]LogPlayLevel: [PlayLevel] Compiling BP_Hero before play...
+[2023.08.22-00.55.29:712][759]LogPlayLevel: [PlayLevel] Compiling AnimBP_Player before play...
+[2023.08.22-00.55.29:713][759]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Select Animation by Bool  has nothing bound to its 'True' animation pin
+[2023.08.22-00.55.29:713][759]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Select Animation by Bool  has nothing bound to its 'False' animation pin
+[2023.08.22-00.55.29:713][759]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Missing allocated node for PaperZDAnimGraphNode_SelectByBool_0 while searching for node links - likely due to the node having outstanding errors.
+[2023.08.22-00.55.29:735][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.08.22-00.55.29:738][759]LogPlayLevel: PlayLevel: Blueprint regeneration took 49 ms (2 blueprints)
+[2023.08.22-00.55.29:738][759]BlueprintLog: Warning: Blueprint failed to compile:  AnimBP_Player
+[2023.08.22-00.55.35:012][759]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.08.22-00.55.42:791][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-00.55.42:865][372]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimBP_Player
+[2023.08.22-00.55.42:866][372]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/AnimBP_Player0F62DFBB40E374EE183E628204488F80.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimBP_Player.uasset'
+[2023.08.22-00.55.42:875][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 4.38 sec)
+[2023.08.22-00.55.42:885][372]AssetCheck: New page: Asset Save: AnimBP_Player
+[2023.08.22-00.55.42:885][372]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/BluePrint/Player/AnimBP_Player.AnimBP_Player
+[2023.08.22-00.55.45:846][631]BlueprintLog: New page: Compile AnimBP_Player
+[2023.08.22-00.55.45:870][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.08.22-00.55.48:430][858]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.22-00.55.48:436][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.22-00.55.48:436][858]PIE: New page: PIE session: FirstLevel (Aug 21, 2023, 10:55:48 AM)
+[2023.08.22-00.55.48:456][858]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2023.08.22-00.55.48:458][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001616s)
+[2023.08.22-00.55.48:458][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.001659s)
+[2023.08.22-00.55.48:458][858]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-00.55.48:458][858]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-00.55.48:458][858]LogAIModule: Creating AISystem for world FirstLevel
+[2023.08.22-00.55.48:458][858]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2023.08.22-00.55.48:476][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.22-00.55.48:478][858]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.08.22-00.55.48:478][858]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.22-00.55.48:478][858]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.22-00.55.48:478][858]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.22-00.55.48:478][858]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.22-00.55.48:478][858]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.22-00.55.48:478][858]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.22-00.55.48:478][858]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.22-00.55.48:478][858]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.22-00.55.48:479][858]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.22-00.55.48:479][858]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.22-00.55.48:479][858]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.22-00.55.48:481][858]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.22-00.55.48:523][858]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.08.22-00.55.48:523][858]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.22-00.55.48:523][858]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.22-00.55.48:523][858]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.22-00.55.48:524][858]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.08.22-00.55.48:524][858]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.08.22-00.55.48:526][858]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.08.22-00.55.48:526][858]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.08.22-00.55.48:526][858]LogInit: FAudioDevice initialized with ID 14.
+[2023.08.22-00.55.48:526][858]LogAudio: Display: Audio Device (ID: 14) registered with world 'FirstLevel'.
+[2023.08.22-00.55.48:526][858]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.08.22-00.55.48:534][858]LogLoad: Game class is 'GM_Base_C'
+[2023.08.22-00.55.48:536][858]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2023.08.21-17.55.48
+[2023.08.22-00.55.48:536][858]LogWorld: Bringing up level for play took: 0.000750
+[2023.08.22-00.55.48:539][858]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.08.22-00.55.48:540][858]PIE: Server logged in
+[2023.08.22-00.55.48:541][858]PIE: Play in editor total start time 0.105 seconds.
+[2023.08.22-00.55.48:559][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:559][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:560][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:560][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:560][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:561][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:561][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:561][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:562][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:562][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:562][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.48:563][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:517][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.22-00.55.59:517][861]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstLevel
+[2023.08.22-00.55.59:517][861]LogWorld: UWorld::CleanupWorld for FirstLevel, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-00.55.59:517][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.55.59:521][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.22-00.55.59:525][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-00.55.59:542][861]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.22-00.55.59:543][861]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.08.22-00.55.59:543][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.08.22-00.55.59:544][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.08.22-00.55.59:547][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.22-00.55.59:549][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.08.22-00.55.59:577][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:577][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:578][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:578][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:578][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:578][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:579][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:579][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:579][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:580][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.22-00.55.59:602][862]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.08.22-01.01.18:599][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.08.22-01.01.18:601][554]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstLevel' took 0.021
+[2023.08.22-01.01.18:601][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/AnimBP_Player] ([2] browsable assets)...
+[2023.08.22-01.01.18:601][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/AnimBP_Player]
+[2023.08.22-01.01.18:606][554]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/AnimBP_Player_Auto9
+[2023.08.22-01.01.18:606][554]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/AnimBP_Player_Auto9592E9E6E41E8ABC0CF6D1CB4495A0115.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/AnimBP_Player_Auto9.uasset'
+[2023.08.22-01.01.18:608][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/BP_Hero] ([2] browsable assets)...
+[2023.08.22-01.01.18:608][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/BP_Hero]
+[2023.08.22-01.01.18:611][554]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/BP_Hero_Auto9
+[2023.08.22-01.01.18:611][554]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/BP_Hero_Auto9F3345763498179521F790C961A407D0C.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/BP_Hero_Auto9.uasset'
+[2023.08.22-01.01.18:612][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/GM_Base] ([2] browsable assets)...
+[2023.08.22-01.01.18:612][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/GM_Base]
+[2023.08.22-01.01.18:614][554]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/GM_Base_Auto9
+[2023.08.22-01.01.18:614][554]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/GM_Base_Auto98020B4974AAF7B751D1BE0928148C3EC.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/GM_Base_Auto9.uasset'
+[2023.08.22-01.01.18:615][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/AnimSequences/RunUp] ([1] browsable assets)...
+[2023.08.22-01.01.18:615][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/AnimSequences/RunUp]
+[2023.08.22-01.01.18:616][554]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/AnimSequences/RunUp_Auto9
+[2023.08.22-01.01.18:616][554]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/RunUp_Auto9A74BFD4448B574E53E30769A8FFAD40B.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/AnimSequences/RunUp_Auto9.uasset'
+[2023.08.22-01.01.18:616][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/AnimSequences/IdleRight] ([1] browsable assets)...
+[2023.08.22-01.01.18:616][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/AnimSequences/IdleRight]
+[2023.08.22-01.01.18:617][554]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/AnimSequences/IdleRight_Auto9
+[2023.08.22-01.01.18:617][554]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/IdleRight_Auto92D1B39AD4D6D875E261F2384B85EB293.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/AnimSequences/IdleRight_Auto9.uasset'
+[2023.08.22-01.01.18:618][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/AnimSequences/MoveRight] ([1] browsable assets)...
+[2023.08.22-01.01.18:618][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/AnimSequences/MoveRight]
+[2023.08.22-01.01.18:619][554]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/AnimSequences/MoveRight_Auto9
+[2023.08.22-01.01.18:619][554]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/MoveRight_Auto9E32BDD6E47B2534C2FD57592B86E8BD9.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/AnimSequences/MoveRight_Auto9.uasset'
+[2023.08.22-01.01.18:620][554]LogFileHelpers: Auto-saving content packages took 0.019
+[2023.08.22-01.02.43:751][475]LogEditCondition: Error: EditCondition parsing failed: Field name "bUpdateInactiveAnimation" was not found in class "PaperZDAnimNode_SelectByInt".
+[2023.08.22-01.02.43:751][475]LogEditCondition: Error: PaperZDAnimNode_SelectByInt - EditCondition attempted to use an invalid operand "bUpdateInactiveAnimation".
+[2023.08.22-01.03.13:125][ 68]BlueprintLog: New page: Compile AnimBP_Player
+[2023.08.22-01.03.13:128][ 68]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Select Animation by Bool  has nothing bound to its 'False' animation pin
+[2023.08.22-01.03.13:128][ 68]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Missing allocated node for PaperZDAnimGraphNode_SelectByBool_0 while searching for node links - likely due to the node having outstanding errors.
+[2023.08.22-01.03.13:152][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.08.22-01.08.13:341][591]LogSlate: Took 0.002255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.08.22-01.09.48:498][145]BlueprintLog: New page: Compile AnimBP_Player
+[2023.08.22-01.09.48:500][145]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Select Animation by Bool  has nothing bound to its 'False' animation pin
+[2023.08.22-01.09.48:500][145]LogBlueprint: Error: [AssetLog] C:\Users\Long\OneDrive\Desktop\UnrealProject\FlipBookTutorial\Content\BluePrint\Player\AnimBP_Player.uasset: [Compiler] Missing allocated node for PaperZDAnimGraphNode_SelectByBool_0 while searching for node links - likely due to the node having outstanding errors.
+[2023.08.22-01.09.48:521][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.08.22-01.11.19:028][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.08.22-01.11.19:032][146]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstLevel' took 0.044
+[2023.08.22-01.11.19:032][146]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/AnimBP_Player] ([2] browsable assets)...
+[2023.08.22-01.11.19:032][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/AnimBP_Player]
+[2023.08.22-01.11.19:038][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/AnimBP_Player_Auto0
+[2023.08.22-01.11.19:038][146]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/AnimBP_Player_Auto0C63CF704477A4A0F4C0C03BB0B56A208.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/AnimBP_Player_Auto0.uasset'
+[2023.08.22-01.11.19:039][146]LogFileHelpers: Auto-saving content packages took 0.007
+[2023.08.22-01.12.17:257][739]BlueprintLog: New page: Compile BP_Hero
+[2023.08.22-01.12.17:295][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.08.22-01.12.32:179][152]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-01.12.32:239][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Player/BP_Hero" FILE="../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/BP_Hero.uasset" SILENT=true
+[2023.08.22-01.12.32:244][152]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/BP_Hero
+[2023.08.22-01.12.32:245][152]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/BP_Hero48DF260D426941E6FF8639AC7095A4DA.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/BP_Hero.uasset'
+[2023.08.22-01.12.32:255][152]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 4.46 sec)
+[2023.08.22-01.12.32:263][152]AssetCheck: New page: Asset Save: BP_Hero
+[2023.08.22-01.12.32:263][152]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BluePrint/Player/BP_Hero.BP_Hero
+[2023.08.22-01.12.39:553][640]BlueprintLog: New page: Compile BP_Hero
+[2023.08.22-01.12.39:591][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.08.22-01.42.56:716][390]LogDerivedDataCache: C:/Users/Long/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:26.172 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 13678 files in 15239 folders with total size 367 MiB.
+[2023.08.22-02.42.55:662][186]LogDerivedDataCache: C:/Users/Long/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:25.118 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 13678 files in 15239 folders with total size 367 MiB.
+[2023.08.22-03.16.37:581][374]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2023.08.22-03.16.37:618][374]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.036 s
+[2023.08.22-03.16.37:618][374]LogOutputDevice: Error: === Handled ensure: ===
+[2023.08.22-03.16.37:618][374]LogOutputDevice: Error: 
+[2023.08.22-03.16.37:618][374]LogOutputDevice: Error: Ensure condition failed: !bGraphDataInvalid  [File:D:\build\++UE5\Sync\Engine\Source\Editor\GraphEditor\Private\SGraphPin.cpp] [Line: 905] 
+[2023.08.22-03.16.37:618][374]LogOutputDevice: Error: The Graph Pin Object has been invalidated. Someone is keeping a hard ref on the SGraphPin (SGraphPinNum<double> [NodeFactory.cpp(322)]). See InvalidateGraphData for more info
+[2023.08.22-03.16.37:618][374]LogOutputDevice: Error: Stack: 
+[2023.08.22-03.16.37:618][374]LogOutputDevice: Error: [Callstack] 0x00007ffc57542891 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.16.37:618][374]LogOutputDevice: Error: [Callstack] 0x00007ffc57545f42 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffc8c88d3b4 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffc8c8e8960 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffc8c88e8bd UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffc8c8f7104 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffc8c8e6e79 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffc8c8dc750 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffcd2ae0b88 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffcd2ac6751 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffcd2ae33c8 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffcd2abff43 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffd1e868211 USER32.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffd1e867a5b USER32.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffc30e57243 InkObj.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffcf7122062 atlthunk.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffd1e868211 USER32.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffd1e867cd1 USER32.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffcd2ae4856 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ff6d8e3750b UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ff6d8e5473c UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ff6d8e5482a UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ff6d8e574f0 UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ff6d8e6a4c4 UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ff6d8e6d996 UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffd1e5826ad KERNEL32.DLL!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: [Callstack] 0x00007ffd207eaa68 ntdll.dll!UnknownFunction []
+[2023.08.22-03.16.37:619][374]LogOutputDevice: Error: 
+[2023.08.22-03.16.37:623][374]LogStats:                SubmitErrorReport -  0.000 s
+[2023.08.22-03.16.38:527][374]LogStats:                    SendNewReport -  0.905 s
+[2023.08.22-03.16.38:527][374]LogStats:             FDebug::EnsureFailed -  0.945 s
+[2023.08.22-03.19.03:305][369]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2023.08.22-03.19.03:308][369]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstLevel' took 0.046
+[2023.08.22-03.19.03:309][369]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/AnimBP_Player] ([2] browsable assets)...
+[2023.08.22-03.19.03:309][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/AnimBP_Player]
+[2023.08.22-03.19.03:318][369]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/AnimBP_Player_Auto1
+[2023.08.22-03.19.03:318][369]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/AnimBP_Player_Auto1496422FB44B2539E2057DDA8E11D2122.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/AnimBP_Player_Auto1.uasset'
+[2023.08.22-03.19.03:321][369]LogFileHelpers: Auto-saving content packages took 0.012
+[2023.08.22-03.21.06:520][226]LogContentBrowser: Attempting asset rename: MoveRight -> MoveRight
+[2023.08.22-03.24.39:528][777]BlueprintLog: New page: Compile AnimBP_Player
+[2023.08.22-03.24.39:557][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.08.22-03.25.08:268][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.08.22-03.25.09:583][149]LogSlate: Window 'Delete Assets' being destroyed
+[2023.08.22-03.25.09:623][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.08.22-03.25.09:645][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.08.22-03.25.09:668][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.08.22-03.25.10:990][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.08.22-03.25.11:972][246]LogSlate: Window 'Delete Assets' being destroyed
+[2023.08.22-03.25.12:002][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.08.22-03.25.12:024][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.08.22-03.25.12:048][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.08.22-03.25.14:976][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.08.22-03.25.16:008][470]LogSlate: Window 'Delete Assets' being destroyed
+[2023.08.22-03.25.16:040][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.22-03.25.16:060][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.08.22-03.25.16:083][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.08.22-03.25.17:398][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.08.22-03.25.18:470][570]LogSlate: Window 'Delete Assets' being destroyed
+[2023.08.22-03.25.18:500][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.08.22-03.25.18:521][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.08.22-03.25.18:541][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.08.22-03.25.21:497][798]LogContentBrowser: Attempting asset rename: MoveRight -> Move
+[2023.08.22-03.25.21:534][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-03.25.21:600][798]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/Move
+[2023.08.22-03.25.21:600][798]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/MoveD424F5A14EA8213C0D0555A8309C5CC3.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/Move.uasset'
+[2023.08.22-03.25.21:612][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 4.53 sec)
+[2023.08.22-03.25.21:638][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.08.22-03.25.21:659][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.08.22-03.25.21:679][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.08.22-03.25.21:686][798]AssetCheck: New page: Asset Save: Move
+[2023.08.22-03.25.21:686][798]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/Move.Move
+[2023.08.22-03.25.25:223][ 60]LogContentBrowser: Attempting asset rename: IdleDown -> Idle
+[2023.08.22-03.25.25:253][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-03.25.25:370][ 60]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimBP_Player
+[2023.08.22-03.25.25:372][ 60]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/AnimBP_Player378BEA304DA89E4C47BA279C6B9C70DC.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimBP_Player.uasset'
+[2023.08.22-03.25.25:374][ 60]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AnimSequences/Idle
+[2023.08.22-03.25.25:374][ 60]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Idle9A6C095C4C3F9CE21D3D8CB8768792D6.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AnimSequences/Idle.uasset'
+[2023.08.22-03.25.25:388][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 4.67 sec)
+[2023.08.22-03.25.25:422][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.08.22-03.25.25:445][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.08.22-03.25.25:465][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.08.22-03.25.25:474][ 60]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.22-03.25.25:474][ 60]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimSequence_Flipbook /Game/BluePrint/Player/AnimSequences/Idle.Idle
+[2023.08.22-03.25.25:474][ 60]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimBP /Game/BluePrint/Player/AnimBP_Player.AnimBP_Player
+[2023.08.22-03.25.25:487][ 60]LogViewport: Scene viewport resized to 1399x1143, mode Windowed.
+[2023.08.22-03.26.35:037][ 45]LogViewport: Scene viewport resized to 1399x683, mode Windowed.
+[2023.08.22-03.27.25:890][980]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.22-03.27.25:966][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Player/AS_Player" FILE="../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AS_Player.uasset" SILENT=true
+[2023.08.22-03.27.25:967][980]LogSavePackage: Moving output files for package: /Game/BluePrint/Player/AS_Player
+[2023.08.22-03.27.25:968][980]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/AS_Player6E496F104A1912DB704C229D86290A2B.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Content/BluePrint/Player/AS_Player.uasset'
+[2023.08.22-03.27.25:977][980]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 4.75 sec)
+[2023.08.22-03.27.25:983][980]AssetCheck: New page: Asset Save: AS_Player
+[2023.08.22-03.27.25:983][980]LogContentValidation: Display: Validating /Script/PaperZD.PaperZDAnimationSource_Flipbook /Game/BluePrint/Player/AS_Player.AS_Player
+[2023.08.22-03.28.16:955][297]LogSlate: Window 'Message Log' being destroyed
+[2023.08.22-03.28.16:971][297]LogSlate: Window 'Message Log' being destroyed
+[2023.08.22-03.29.03:860][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.08.22-03.29.03:868][472]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstLevel' took 0.027
+[2023.08.22-03.29.03:869][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/AnimSequences/Idle] ([1] browsable assets)...
+[2023.08.22-03.29.03:869][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/AnimSequences/Idle]
+[2023.08.22-03.29.03:870][472]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/AnimSequences/Idle_Auto2
+[2023.08.22-03.29.03:870][472]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Idle_Auto2DF47A6F14D95F2C67F933BABC50FEF9A.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/AnimSequences/Idle_Auto2.uasset'
+[2023.08.22-03.29.03:871][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/GM_Base] ([2] browsable assets)...
+[2023.08.22-03.29.03:871][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/GM_Base]
+[2023.08.22-03.29.03:873][472]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/GM_Base_Auto2
+[2023.08.22-03.29.03:873][472]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/GM_Base_Auto22C326A41483D9118EF5497861E3D3067.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/GM_Base_Auto2.uasset'
+[2023.08.22-03.29.03:874][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/AnimSequences/Move] ([1] browsable assets)...
+[2023.08.22-03.29.03:874][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/AnimSequences/Move]
+[2023.08.22-03.29.03:875][472]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrint/Player/AnimSequences/Move_Auto2
+[2023.08.22-03.29.03:875][472]LogSavePackage: Moving '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Move_Auto2331B1A334DC2EC3418F8E99A0350B5C5.tmp' to '../../../../../../Users/Long/OneDrive/Desktop/UnrealProject/FlipBookTutorial/Saved/Autosaves/Game/BluePrint/Player/AnimSequences/Move_Auto2.uasset'
+[2023.08.22-03.29.03:875][472]LogFileHelpers: Auto-saving content packages took 0.007
+[2023.08.22-03.29.41:392][244]LogSlate: Window 'AS_Player' being destroyed
+[2023.08.22-03.29.41:402][244]LogSlate: Window 'AS_Player' being destroyed
+[2023.08.22-03.29.41:418][244]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-03.29.41:418][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-03.29.41:570][244]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-03.29.41:570][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-03.29.41:593][244]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-03.29.41:593][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-03.29.41:650][244]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-03.29.41:650][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-03.29.41:675][244]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.08.22-03.29.41:675][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.22-03.29.44:529][528]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimBP /Game/BluePrint/Player/AnimBP_Player.AnimBP_Player
+[2023.08.22-03.29.44:530][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.22-03.29.44:530][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.22-03.31.06:749][503]LogWindows: Error: === Critical error: ===
+[2023.08.22-03.31.06:749][503]LogWindows: Error: 
+[2023.08.22-03.31.06:749][503]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff
+[2023.08.22-03.31.06:749][503]LogWindows: Error: 
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc91f313cc UnrealEditor-Core.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc919aa5f7 UnrealEditor-Core.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc919aa9b3 UnrealEditor-Core.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc917deb18 UnrealEditor-Core.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc91891a05 UnrealEditor-Core.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc8837f0e3 UnrealEditor-Engine.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc877dc782 UnrealEditor-Engine.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc56297ffb UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc56371d63 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc56378019 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc56377bcf UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc563b0a4b UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc563753ed UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc566a2881 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc56662a34 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc574f8e36 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc5742d600 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc566381a7 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc5644b978 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc5642859e UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc574ac495 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc57463d67 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc57512a77 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc574e9467 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc57548a54 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc574de08f UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc8c8ab552 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc8c8902b8 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc8c8f89b3 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc8c8e7430 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffc8c8dccf0 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffcd2ae0b12 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.31.06:749][503]LogWindows: Error: [Callstack] 0x00007ffcd2ac6751 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffcd2ae33c8 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffcd2abff43 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffd1e868211 USER32.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffd1e867a5b USER32.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffc30e57243 InkObj.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffcf7122182 atlthunk.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffd1e868211 USER32.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffd1e867cd1 USER32.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffcd2ae4856 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ff6d8e3750b UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ff6d8e5473c UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ff6d8e5482a UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ff6d8e574f0 UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ff6d8e6a4c4 UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ff6d8e6d996 UnrealEditor.exe!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffd1e5826ad KERNEL32.DLL!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: [Callstack] 0x00007ffd207eaa68 ntdll.dll!UnknownFunction []
+[2023.08.22-03.31.06:750][503]LogWindows: Error: 
+[2023.08.22-03.31.06:767][503]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.08.22-03.31.06:767][503]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+[2023.08.22-03.31.06:767][503]LogCore: Engine exit requested (reason: Win RequestExit)
